@@ -1,0 +1,2 @@
+The implementation of the vertexTable allows removeVertex() run in O(d)time because this implementation makes it so removeVertex() traverses all the vertices that are connected to it. Since the vertex that is being removed is paired
+with the other vertices, the specific node is hashed through the edgeTable and then removed, allowin it to run quickly in O(d) time.
